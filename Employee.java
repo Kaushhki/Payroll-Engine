@@ -7,8 +7,8 @@ public abstract class Employee implements Payable {
         this.employeeId = employeeId;
     }
 
-    // Every subclass MUST provide its own way of calculating pay —
-    // that's the whole point of making this abstract.
+    
+
     public abstract double calculatePay();
 
     public String getName() {
