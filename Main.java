@@ -24,8 +24,8 @@ public class Main {
 
         System.out.printf("Total payout: %.2f%n", totalPayout);
 
-        // Now demonstrate the exception actually being caught and handled,
-        // not just declared — this is the part that shows real understanding.
+       
+
         System.out.println("\n---- Testing invalid input handling ----");
         try {
             Employee bad = new SalariedEmployee("Bad Data", "E999", -5000);
