@@ -7,7 +7,7 @@ public class Main {
 
         try {
             employees.add(new SalariedEmployee("Priya Sharma", "E101", 65000));
-            employees.add(new HourlyEmployee("Rahul Verma", "E102", 500, 45)); // includes overtime
+            employees.add(new HourlyEmployee("Rahul Verma", "E102", 500, 45)); 
             employees.add(new SalariedEmployee("Ananya Iyer", "E103", 72000));
         } catch (InvalidSalaryException e) {
             System.out.println("Error creating employee: " + e.getMessage());
